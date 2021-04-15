@@ -1,14 +1,11 @@
 ---
 layout: splash
+author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/splash.jpg
 excerpt: ""
-intro:
-  - image_path: assets/images/bio_photo2.jpg
-    title: "Alex Li"
-    excerpt: "Data Scientist"
 feature_row:
   - image_path: _portfolio/beer_images/title.JPG
     alt: "placeholder image 1"
@@ -53,8 +50,8 @@ feature_row4:
 
 {% include feature_row id="feature_row" type="center" %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="center" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="feature_row3" type="center" %}
 
 {% include feature_row id="feature_row4" type="center" %}
