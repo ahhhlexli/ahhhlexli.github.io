@@ -1,5 +1,6 @@
 ---
 layout: single
+class: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -64,6 +65,6 @@ feature_row4:
 ---
 
 {% include feature_row id="intro" type="center" %}
+## Portfolio Projects
 {% include gallery type="center" %}
-{% include feature_row id="feature_row" type="center" %}
 
