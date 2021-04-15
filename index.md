@@ -9,19 +9,20 @@ excerpt: "Words"
 intro: 
   - excerpt: 'Alex Li Data Scientist'
 feature_row:
-  - image_path: _portfolio/beer_images/title.JPG
+  - url: /portfolio/kickstarter
+    image_path: _portfolio/beer_images/title.JPG
     alt: "placeholder image 1"
-    title: "Placeholder 1"
+    title: "Beer Price Checker"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: _portfolio/kickstarter_images/title.JPG
     alt: "placeholder image 2"
-    title: "Placeholder 2"
+    title: "Kickstarting Kickstarter"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: /portfolio/kickstarter
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
+    title: "NBA All Star Predictor"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
