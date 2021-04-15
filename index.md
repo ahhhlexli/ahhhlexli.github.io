@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/unsplash-image-1.jpg
 excerpt: ""
 intro:
-  - image_path: /assets/images/bio_photo2.jpg
+  - image_path: assets/images/bio_photo2.jpg
     title: "Alex Li"
     excerpt: "Data Scientist"
 feature_row:
