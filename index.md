@@ -8,7 +8,8 @@ header:
   overlay_image: /assets/images/splash.jpg
 excerpt: ""
 intro:
-  - title: Briefly About Me
+  - image_path: /assets/images/bio-photo2.jpg
+    title: Briefly About Me
     excerpt: "Teacher turned data scientist passionate about coding and it's applications."
 feature_row:
   - image_path: _portfolio/beer_images/title.JPG
