@@ -7,7 +7,7 @@ author_profile: true
 
 
 
-{% for post in site.pages.portfolio %}
+{% for post in site.portfolio %}
   {{ post.title }}
   
 {% endfor %}
