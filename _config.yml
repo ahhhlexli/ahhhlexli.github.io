@@ -98,7 +98,7 @@ analytics:
 author:
   name             : "Alex Li"
   avatar           : "/assets/images/bio-photo2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : """Data Scientist|Data Analyst"""
+  bio              : "Data Scientist|Data Analyst"
   location         : "Hong Kong"
   email            : # "alexli0605@gmail.com"
   links:
