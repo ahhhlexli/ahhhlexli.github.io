@@ -126,6 +126,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  
 
 # Site Footer
 footer:
@@ -154,6 +155,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
