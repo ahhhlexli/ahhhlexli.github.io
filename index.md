@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: default
 author_profile: true
 header:
   overlay_color: "#000"
