@@ -3,7 +3,7 @@ layout: single
 collection: portfolio
 permalink: /portfolio/kickstarter
 title: "Kickstarting Kickstarter"
-excerpt: "Check the Price!<br/><img src='kickstarter_images/title.JPG'>"
+excerpt: "Predicting Kickstarter Success!<br/><img src='kickstarter_images/title.JPG'>"
 author_profile: true
 ---
 
