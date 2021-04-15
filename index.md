@@ -24,6 +24,20 @@ feature_row:
     url: /portfolio/kickstarter
     btn_label: "Read More"
     btn_class: "btn--primary"
+    
+gallery:
+  - url: /portfolio/beer
+    image_path: _portfolio/beer_images/title.JPG
+    alt: "Beer Price Checker"
+    title: "Beer Price Checker"
+  - url: /portfolio/kickstarter
+    image_path: _portfolio/kickstarter_images/title.JPG
+    alt: "Kickstarting Kickstarter"
+    title: "Kickstarting Kickstarter"
+  - url: /portfolio/kickstarter
+    image_path: /assets/images/splash.jpg
+    alt: "placeholder image 3"
+    title: "NBA All Star Predictor"
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "NBA All Star Predictor"
@@ -50,6 +64,6 @@ feature_row4:
 ---
 
 {% include feature_row id="intro" type="center" %}
-
+{% include gallery type="center" %}
 {% include feature_row id="feature_row" type="center" %}
 
