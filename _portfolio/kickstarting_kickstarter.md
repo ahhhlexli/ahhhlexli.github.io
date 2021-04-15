@@ -80,46 +80,53 @@ author_profile: true
 ## Sample Methodology for a Model 
 
 #### Baseline Model & Make Predictions
-> model = LogisticRegression()  
-> model.fit(X_train, y_train)  
-> predictions = model.predict(X_test)
-
+```
+model = LogisticRegression()  
+model.fit(X_train, y_train)  
+predictions = model.predict(X_test)
+```
 #### Evaluate Using Confusion Matrix
-> tn, fp, fn, tp = confusion_matrix(y_test, predictions).ravel()
+```
+tn, fp, fn, tp = confusion_matrix(y_test, predictions).ravel()
 print('Confusion Matrix')
 print([tp,fp])
 print([fn,tn])
 print()  
-> print('Classification Report')  
-> print(classification_report(y_test, predictions))  
-> print('Accuracy Score')  
-> print(accuracy_score(y_test, predictions))
+print('Classification Report')  
+print(classification_report(y_test, predictions))  
+print('Accuracy Score')  
+print(accuracy_score(y_test, predictions))
+```
 
 #### Parameter Tuning
-> parameters = {'C':np.linspace(.01,1)}  
-> search = GridSearchCV(LogisticRegression(), parameters, verbose=3, n_jobs=-1)  
-> search.fit(X_train, y_train)  
-> print('LOGISTIC REGRESSION - GRID SEARCH')  
-> print(search.best_score_)  
-> print(search.best_params_)
-
+```
+parameters = {'C':np.linspace(.01,1)}  
+search = GridSearchCV(LogisticRegression(), parameters, verbose=3, n_jobs=-1)  
+search.fit(X_train, y_train)  
+print('LOGISTIC REGRESSION - GRID SEARCH')  
+print(search.best_score_)  
+print(search.best_params_)
+```
 
 #### Tuned Model & Make Predictions
-> model = LogisticRegression(max_iter=1000, C=0.5555102040816327)  
-> model.fit(X_train, y_train)  
-> predictions = model.predict(X_test)
+```
+model = LogisticRegression(max_iter=1000, C=0.5555102040816327)  
+model.fit(X_train, y_train)  
+predictions = model.predict(X_test)
+```
 
 #### Final Evaluation using Confusion Matrix
-> tn, fp, fn, tp = confusion_matrix(y_test, predictions).ravel()
+```
+tn, fp, fn, tp = confusion_matrix(y_test, predictions).ravel()
 print('Confusion Matrix')
 print([tp,fp])
 print([fn,tn])
 print()  
-> print('Classification Report')  
-> print(classification_report(y_test, predictions))  
-> print('Accuracy Score')  
-> print(accuracy_score(y_test, predictions))
-
+print('Classification Report')  
+print(classification_report(y_test, predictions))  
+print('Accuracy Score')  
+print(accuracy_score(y_test, predictions))
+```
 
 # Findings
 
