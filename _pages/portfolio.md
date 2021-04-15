@@ -1,11 +1,13 @@
 ---
-title: Portfolio
-layout: collection
+layout: archive
+title: "Portfolio"
 permalink: /portfolio/
-collection: portfolio
-entries_layout: grid
-classes: wide
 author_profile: true
 ---
 
-[Test Page](/test.md)
+{% include base_path %}
+
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
