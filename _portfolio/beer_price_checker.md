@@ -1,6 +1,8 @@
 ---
 layout: single
 permalink: /portfolio/beer
+collection: portfolio
+excerpt: "Check the Price!<br/><img src='images/title.JPG'>"
 author_profile: true
 ---
 
