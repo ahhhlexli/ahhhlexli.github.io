@@ -12,19 +12,16 @@ author_profile: true
 
 # Objective
 - Use machine learning models to predict which Kickstarter Projects will be successful
+
 # Data Sources
 - Data found from Kaggle
 - [Source Data](https://www.kaggle.com/kemical/kickstarter-projects)  
 
 
 ### Sample Data
-|    |         ID | name                                                       | category       | main_category   | currency   | deadline   |   goal | launched            |   pledged | state    |   backers | country   |   usd pledged |   usd_pledged_real |   usd_goal_real |
-|---:|-----------:|:-----------------------------------------------------------|:---------------|:----------------|:-----------|:-----------|-------:|:--------------------|----------:|:---------|----------:|:----------|--------------:|-------------------:|----------------:|
-|  0 | 1000002330 | The Songs of Adelaide & Abullah                            | Poetry         | Publishing      | GBP        | 2015-10-09 |   1000 | 2015-08-11 12:12:28 |         0 | failed   |         0 | GB        |             0 |                  0 |         1533.95 |
-|  1 | 1000003930 | Greeting From Earth: ZGAC Arts Capsule For ET              | Narrative Film | Film & Video    | USD        | 2017-11-01 |  30000 | 2017-09-02 04:43:57 |      2421 | failed   |        15 | US        |           100 |               2421 |        30000    |
-|  2 | 1000004038 | Where is Hank?                                             | Narrative Film | Film & Video    | USD        | 2013-02-26 |  45000 | 2013-01-12 00:20:50 |       220 | failed   |         3 | US        |           220 |                220 |        45000    |
-|  3 | 1000007540 | ToshiCapital Rekordz Needs Help to Complete Album          | Music          | Music           | USD        | 2012-04-16 |   5000 | 2012-03-17 03:24:11 |         1 | failed   |         1 | US        |             1 |                  1 |         5000    |
-|  4 | 1000011046 | Community Film Project: The Art of Neighborhood Filmmaking | Film & Video   | Film & Video    | USD        | 2015-08-29 |  19500 | 2015-07-04 08:35:03 |      1283 | canceled |        14 | US        |          1283 |               1283 |        19500    |
+
+![Sample](kickstarter_images/sample_data.JPG)
+
 # Data Cleaning
 
 - Regrouped the states of the projects to reflect only **successful** or **failed**

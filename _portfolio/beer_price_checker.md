@@ -36,10 +36,11 @@ author_profile: true
 ![Sample Consumer Council](beer_images/consumer_sample.jpg)
 
 # Data Cleaning
-### Beer beer_images
-- beer_images were generally not zoomed in enough on the logos
+### Beer Images
+- Images were generally not zoomed in enough on the logos
 - Used Inbac for clean and efficient image cropping
    - https://github.com/weclaw1/inbac
+   
 ### Price Data
 - Basic reformatting of the dataframe through Pandas for improved ease of use  
 <p>&nbsp;</p>
