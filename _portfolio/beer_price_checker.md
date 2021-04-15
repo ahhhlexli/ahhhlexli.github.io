@@ -3,12 +3,12 @@ layout: single
 collection: portfolio
 permalink: /portfolio/beer
 title: "Beer Price Checker"
-excerpt: "Check the Price!<br/><img src='images/title.JPG'>"
+excerpt: "Check the Price!<br/><img src='beer_images/title.JPG'>"
 author_profile: true
 ---
 
 
-![title](images/title.JPG)
+![title](beer_images/title.JPG)
 
 ## Group Project Members
 
@@ -30,14 +30,14 @@ author_profile: true
 
 ### Beer Image Samples
 
-![Sample Beer](images/beer_sample.JPG)
+![Sample Beer](beer_images/beer_sample.JPG)
 
 ### Consumer Council Data Sample
-![Sample Consumer Council](images/consumer_sample.jpg)
+![Sample Consumer Council](beer_images/consumer_sample.jpg)
 
 # Data Cleaning
-### Beer Images
-- Images were generally not zoomed in enough on the logos
+### Beer beer_images
+- beer_images were generally not zoomed in enough on the logos
 - Used Inbac for clean and efficient image cropping
    - https://github.com/weclaw1/inbac
 ### Price Data
@@ -81,9 +81,9 @@ model.add(Dense(num_classes, activation = 'softmax', kernel_regularizer=regulari
 - User uploaded photo will output a prediction and display retail prices for the predicted brand
 
 ### Sample Data Input
-![Sample Data Input](images/data_input.JPG)
+![Sample Data Input](beer_images/data_input.JPG)
 ### Sample Data Output
-![Sample Data Output](images/data_output.JPG)
+![Sample Data Output](beer_images/data_output.JPG)
 # Future Improvements 
 - Expand existing dataset 
   - Include more beer brands
