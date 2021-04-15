@@ -2,6 +2,7 @@
 layout: single
 collection: portfolio
 permalink: /portfolio/beer
+title: "Beer Price Checker"
 excerpt: "Check the Price!<br/><img src='images/title.JPG'>"
 author_profile: true
 ---
