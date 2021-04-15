@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/unsplash-image-1.jpg
 excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
-  - excerpt: Alex Li Data Scientist `type="center"`
+  - excerpt: "Alex Li Data Scientist `type="center"`"
 feature_row:
   - image_path: <img src="https://ahhhlexli.github.io/portfolio/beer_images/title.JPG">
     alt: "placeholder image 1"
