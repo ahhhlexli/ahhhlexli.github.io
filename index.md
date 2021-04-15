@@ -7,26 +7,27 @@ header:
   overlay_image: /assets/images/splash.jpg
 excerpt: ""
 intro:
-  - excerpt: "Teacher turned data scientist passionate about coding and it's applications."
+  - title: Briefly About Me
+    excerpt: "Teacher turned data scientist passionate about coding and it's applications."
 feature_row:
   - image_path: _portfolio/beer_images/title.JPG
     alt: "placeholder image 1"
     title: "Beer Price Checker"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "An app for comparing prices of beer."
     url: /portfolio/beer
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: _portfolio/kickstarter_images/title.JPG
     alt: "placeholder image 2"
     title: "Kickstarting Kickstarter"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Can we predict which Kickstarters will be successful?"
     url: /portfolio/kickstarter
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "NBA All Star Predictor"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Find out what it takes to be an NBA All Star."
     url: /portfolio/kickstarter
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -48,7 +49,7 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="left" %}
 
 {% include feature_row id="feature_row" type="center" %}
 
