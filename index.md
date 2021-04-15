@@ -6,6 +6,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/splash.jpg
 excerpt: ""
+intro:
+  - excerpt: "Teacher turned data scientist passionate about coding and it's applications."
 feature_row:
   - image_path: _portfolio/beer_images/title.JPG
     alt: "placeholder image 1"
@@ -46,7 +48,7 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row id="feature_row" type="center" %}
-{% include feature_row id="intro" type="center" %}
+
