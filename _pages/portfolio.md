@@ -7,6 +7,6 @@ author_profile: true
 
 
 
-{% for post in site.pages %}
+{% for post in site.pages.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
