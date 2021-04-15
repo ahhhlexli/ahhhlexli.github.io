@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Beer Price Checker"
 permalink: /portfolio/beer
 author_profile: true
 ---
@@ -8,7 +7,6 @@ author_profile: true
 
 ![title](images/title.JPG)
 
-# Beer Price Checker
 ## Group Project Members
 
 [Alex Li](https://github.com/ahhhlexli "Alex Li's GitHub")\
