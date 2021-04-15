@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/splash.jpg
 excerpt: ""
 intro:
-  - image_path: /assets/images/bio-photo-small.jpg
+  - image_path: /assets/images/bio-photo2.jpg
     title: Briefly About Me
     excerpt: "Teacher turned data scientist passionate about coding and it's applications."
 feature_row:
