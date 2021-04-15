@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
 
@@ -98,7 +98,7 @@ analytics:
 author:
   name             : "Alex Li"
   avatar           : "/assets/images/bio-photo2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : """Data Scientist\|Data Analyst"""
+  bio              : """Data Scientist|Data Analyst"""
   location         : "Hong Kong"
   email            : # "alexli0605@gmail.com"
   links:
