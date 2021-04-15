@@ -1,3 +1,11 @@
+---
+layout: single
+title: "Beer Price Checker"
+permalink: /portfolio/beer
+author_profile: true
+---
+
+
 ![title](images/title.JPG)
 
 # Beer Price Checker
