@@ -34,7 +34,7 @@ gallery:
     image_path: _portfolio/kickstarter_images/title.JPG
     alt: "Kickstarting Kickstarter"
     title: "Kickstarting Kickstarter"
-  - url: /portfolio/kickstarter
+  - url: /portfolio/allstar
     image_path: _portfolio/allstar_images/title.JPG
     alt: "NBA All Star Predictor"
     title: "NBA All Star Predictor"
