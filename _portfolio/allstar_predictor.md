@@ -20,6 +20,7 @@ author_profile: true
 ## App Deployment
 Link to App: [NBA All Star Predictor](https://share.streamlit.io/ahhhlexli/basketball_reference_scrape/app_model_only.py "All Star Predictor")
 - Hosted on Streamlit Share
+
 ## Data Source
 
 - NBA Player Season Totals taken off [Basketball-Reference.com](https://www.basketball-reference.com/ "Basketball Reference")
