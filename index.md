@@ -1,13 +1,9 @@
 ---
 layout: splash
 intro:
-  - image_path: /assets/images/empty.JPG
-    alt: "placeholder image 2"
   - image_path: /assets/images/bio-photo2.jpg
     title: Briefly About Me
     excerpt: "Teacher turned data scientist passionate about coding and it's applications."
-  - image_path: /assets/images/empty.JPG
-    alt: "placeholder image 2"
 feature_row:
   - image_path: _portfolio/beer_images/title.JPG
     alt: "placeholder image 1"
@@ -61,6 +57,10 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+
+![biophoto](/assets/images/bio-photo2.jpg)
+
+About Me
 
 {% include feature_row id="intro" type="left" %}
 ## Portfolio Projects
