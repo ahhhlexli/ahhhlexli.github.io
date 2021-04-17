@@ -58,9 +58,13 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-![biophoto](/assets/images/bio-photo2.jpg)
+![biophoto](/assets/images/bio-photo-small.jpg)
 
-About Me
+# About Me
+
+## Alex Li
+
+"Teacher turned data scientist passionate about coding and it's applications."
 
 {% include feature_row id="intro" type="left" %}
 ## Portfolio Projects
