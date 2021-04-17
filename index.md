@@ -1,7 +1,7 @@
 ---
 layout: splash
 intro:
-  - image_path: /assets/images/bio-photo2.jpg
+  - image_path: /assets/images/bio-photo-small.jpg
     title: Briefly About Me
     excerpt: "Teacher turned data scientist passionate about coding and it's applications."
 feature_row:
@@ -60,10 +60,7 @@ feature_row4:
 
 # Briefly About Me
 
-|   | |
-| ------------- | ------------- |
-| ![biophoto](/assets/images/bio-photo-small.jpg) | Teacher turned data scientist passionate about coding and it's applications. |
-| Content Cell  | Content Cell  |
+![biophoto](/assets/images/bio-photo-small.jpg)  Alex Li
 
 
 {% include feature_row id="intro" type="left" %}
