@@ -121,7 +121,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "LinkedIn"
-      icon: "linkedin"
+      icon: "fab fa-linkedin-in"
       icon_pack: "fa"
       url: "https://linkedin.com/in/alexli0605"
 
