@@ -58,13 +58,12 @@ feature_row4:
     btn_class: "btn--primary"
 author_profile: true
 ---
-# 
 
-# Briefly About Me
+## Briefly About Me
 
-![biophoto](/assets/images/bio-photo-small.jpg)  ### Alex Li
+Data scientist passionate about coding and it's applications. Background in STEM education (7+ years). My time at my previous job had sparked my interest in coding and the role data has in our future world, so I am looking to step on a new path in data science. 
 
 
-## Portfolio Projects
+## Portfolio Highlights
 {% include gallery type="center" %}
 
