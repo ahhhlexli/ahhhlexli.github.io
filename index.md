@@ -1,9 +1,13 @@
 ---
 layout: splash
 intro:
+  - image_path: /assets/images/empty.JPG
+    alt: "placeholder image 2"
   - image_path: /assets/images/bio-photo2.jpg
     title: Briefly About Me
     excerpt: "Teacher turned data scientist passionate about coding and it's applications."
+  - image_path: /assets/images/empty.JPG
+    alt: "placeholder image 2"
 feature_row:
   - image_path: _portfolio/beer_images/title.JPG
     alt: "placeholder image 1"
