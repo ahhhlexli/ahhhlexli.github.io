@@ -120,6 +120,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "linkedin"
+      icon_pack: "fa"
+      url: "https://linkedin.com/in/alexli0605"
 
 # Content
 collections:
