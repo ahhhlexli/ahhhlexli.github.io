@@ -56,14 +56,15 @@ feature_row4:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+author_profile: true
 ---
+# 
 
 # Briefly About Me
 
-![biophoto](/assets/images/bio-photo-small.jpg)  Alex Li
+![biophoto](/assets/images/bio-photo-small.jpg)  ### Alex Li
 
 
-{% include feature_row id="intro" type="left" %}
 ## Portfolio Projects
 {% include gallery type="center" %}
 
